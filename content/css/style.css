@@ -1,0 +1,18 @@
+.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active, 
+.btn-secondary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover
+{
+	box-shadow: none!important;
+	outline: 0;
+}
+		
+.btn-no-focus-shadow:hover, .btn-no-focus-shadow:focus, .btn-no-focus-shadow:active,
+.btn-no-focus-shadow:active:focus:not(:disabled):not(.disabled)
+{
+    box-shadow: none !important;
+    outline: 0;
+	
+	#399284
+	
+	#245b4e(focus)
+}
