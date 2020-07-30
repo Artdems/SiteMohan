@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var result = "";
 	for(var i = 0; i<ListeLivre.length; i++){
 		var livre = ListeLivre[i].split('/');
-		result = result + "<tr><th scope='row'>" + livre[0] + "</td><td>" + livre[1] + "</td><td>" + livre[2] + "</td></tr>";
+		result = result + "<tr href='content/Nouvelle/Rapport.pdf'><th scope='row'>" + livre[0] + "</td><td>" + livre[1] + "</td><td>" + livre[2] + "</td><td><a class='btn btn-secondary' role='button' href='NouvelleView.html'>Lire</a></tr>";
 	}
 	var tableau = document.getElementById('tableNouvel');
 	tableau.innerHTML = result;
